@@ -7,7 +7,7 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/blood.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +24,252 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+			
+			<!---------------------------------->	
+				<section data-markdown data-background="https://i.imgur.com/kacupqk.jpg" data-background-size=contain data-background-repeat=repeat>
+					<textarea data-template>
+						## 7 habits of highly learned machines 
+						
+						Sarah Kaiser
+
+						7 June 2018
+					</textarea>
+				</section>
+
+			<!---------------------------------->
+				<section data-markdown>
+					<textarea data-template>
+						### What does it even mean for machines to learn?
+						<a href="https://doi.org/10.1147%2Frd.33.0210"><i class="fragment"> "... to progressively improve at a task without being explicitly programmed."</i></a>
+					</textarea>
+				</section>
+
+			<!---------------------------------->
+				<section data-markdown>
+					<textarea data-template>
+							<h3> General terms from ML:</h3>
+							<p class="fragment"> features</p>
+							<p class="fragment"> labels</p>
+							<p class="fragment"> models</p>
+							<p class="fragment"> bias</p>
+							<p class="fragment"> model training and validation</p>
+							<p class="fragment"> cost/loss</p>
+				
+		
+					</textarea>
+				</section>
+
+			<!---------------------------------->
+				<section data-markdown>
+					<textarea data-template>
+						<h3> What types of tasks that machines are good at learning about?</h3>
+
+		
+					</textarea>
+				</section>
+
+			<!---------------------------------->
+				<section data-markdown>
+					<textarea data-template>
+						With labels:
+						<h3> Supervised Learning</h3>
+
+						<img class="fragment" src="https://aldro61.github.io/microbiome-summer-school-2017/figures/figure.classification.vs.regression.png" width="60%" height="60%"/>
+
+					</textarea>
+				</section>
+			
+			<!---------------------------------->
+				<section data-markdown>
+						<textarea data-template>
+							With labels:
+							<h4> Supervised Classification</h4>
+							<img src="http://slideplayer.com/3833223/13/images/2/Basic+Classification+in+ML.jpg" width="60%" height="60%"/>
+							
+				
+						</textarea>
+					</section>	
+			<!---------------------------------->
+				<section data-markdown>
+						<textarea data-template>
+							With labels:
+							<h4> Supervised Regression</h4>
+							<img src="https://i.stack.imgur.com/2I1fi.png" width="60%" height="60%"/>
+							
+				
+						</textarea>
+					</section>	
+
+			<!---------------------------------->
+				<section data-markdown>
+					<textarea data-template>
+						Without labels:
+						<h2> Unsupervised Learning</h2>
+						
+						<p class="fragment"> - Clustering</p>
+						<p class="fragment"> - Dimensionality reduction</p>
+		
+					</textarea>
+				</section>
+			<!---------------------------------->
+				<section data-markdown>
+					<textarea data-template>
+						Without labels:
+						<h4> Unsupervised Clustering</h4>
+						<img src="https://www.iotforall.com/wp-content/uploads/2018/01/Screen-Shot-2018-01-17-at-8.10.14-PM.png" width="80%" height="80%"/>
+						
+			
+					</textarea>
+				</section>
+			
+			<!---------------------------------->
+				<section data-markdown>
+					<textarea data-template>
+						Without labels:
+						<h4> Unsupervised Dimensionality Reduction</h4>
+						<img src="https://cdn-images-1.medium.com/max/1200/1*WRKdN-NYF0mMumhfOXVa2Q.png" width="80%" height="80%"/>
+						
+			
+					</textarea>
+				</section>
+
+
+
+			<!---------------------------------->
+				<section data-markdown>
+					<textarea data-template>
+						When you want the machine to discover things about data structure:
+
+						### Deep learning / Neural nets
+						<img src="https://i.kinja-img.com/gawker-media/image/upload/t_original/acnhdushcdjvxvofwiad.gif" width="40%" height="40%"/>
+						
+						[Google's Deep Dream](https://www.gizmodo.com.au/2017/04/bob-ross-processed-by-a-neural-network-is-the-most-soothing-way-to-melt-your-brain/)
+
+
+					</textarea>
+				</section>
+
+			<!---------------------------------->
+				<section data-background-iframe="https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.77291&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false" data-background-interactive>
+					
+				</section>
+
+
+			<!---------------------------------->
+				<section data-markdown>
+					<textarea data-template>
+						##### When you want the machine to learn to react to an environment:
+
+						## Reinforcement learning
+
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/qv6UVOQ0F44?rel=0&amp;start=45" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				
+						<aside class="notes">Reinforcement learning differs from standard supervised learning in that correct input/output pairs[clarification needed] need not be presented, and sub-optimal actions need not be explicitly corrected. Instead the focus is on performance, which involves finding a balance between exploration (of uncharted territory) and exploitation (of current knowledge).</aside>
+					</textarea>
+				</section>
+
+			<!---------------------------------->
+				<section data-background="https://towardsml.files.wordpress.com/2018/02/machine-learning-bubble-chart.png" data-background-size=contain data-background-color="#ffffff">
+	
+				</section>
+
+			<!---------------------------------->
+				<section data-markdown>
+					<textarea data-template>
+						<h3> How are you going to spend your time setting up a ML workflow?</h3>
+						<img class="fragment" src="http://hazaq.me/assets/images/ml-workflow.jpeg" width="60%" height="60%"/>
+	
+					</textarea>
+				</section>
+
+			<!---------------------------------->
+				<section data-markdown>
+						<textarea data-template>
+							<h3> 2. Data Janitor! &#x1F610</h3>
+							
+							| Age        | Has_Job | Education   | Defaulted? |
+							|------------|---------|-------------|------------|
+							| 22         | Yes     | Graduate    | No         |
+							| 47.9999999 | NULL    | High School | No         |
+							| 35         | Yes     | N/A         | Yes        |
+							| 21         | nope    | lololololo  | Yes        |
+							| "42"       | Yes     | Graduate    | Maybe      |					
+						</textarea>
+							</section>
+			<!---------------------------------->
+				<section data-markdown>
+						<textarea data-template>
+								There a lots of tools to help you manage all the data and the acquisition pipeline!
+								- Python -> [Pandas](https://pandas.pydata.org/)
+								- R -> [dplyr](https://dplyr.tidyverse.org/) and [tidyr](http://tidyr.tidyverse.org/)
+								- [Trifacta](https://www.trifacta.com/products/wrangler/)
+								- [Tabula](https://tabula.technology/) - can get tables out of pdf files
+								- [OpenRefine](http://openrefine.org/)
+								- [Dremio](https://www.dremio.com/) - Connects virtually any data source or format
+								- Excel-foo
+
+			
+						</textarea>
+					</section>
+			<!---------------------------------->
+				<section data-markdown >
+					<textarea data-template>
+						 What are some good ML packages/tools out there?
+						
+					</textarea>
+				</section>
+			<!---------------------------------->
+				<section data-markdown data-background="https://format-com-cld-res.cloudinary.com/image/private/s--gxPnyf4H--/c_crop,h_1500,w_2000,x_0,y_0/c_fill,g_center,h_855,w_1140/a_auto,fl_keep_iptc.progressive.apng/v1/19575bcc040a6dcff3097618ec9c585e/MI-Landscape-3_7.png" data-background-size="contain">
+					<textarea data-template>
+						
+						
+					</textarea>
+				</section>
+
+			<!---------------------------------->
+				<section data-markdown>
+					<textarea data-template>
+							<h3> ML in the wild:</h3>
+		
+					</textarea>
+				</section>
+
+			<!---------------------------------->
+				<section data-background="http://www.thatsoftwaredude.com/images/post/invisible-recaptcha.png" data-background-size="contain">
+			
+				</section>
+
+
+			<!---------------------------------->
+				<section data-markdown >
+					<textarea data-template >
+							#### [Neural Network Paint Colors](http://www.iflscience.com/technology/an-ai-was-trained-to-create-new-colors-it-was-wonderfully-terrible/)####
+					</textarea>
+					
+				</section>
+			<!---------------------------------->
+				<section data-markdown data-background="https://i.imgur.com/NNTR7ZV.jpg" data-background-size=contain data-background-color="white">
+					
+					
+				</section>
+		
+			<!---------------------------------->
+				<section data-background-iframe="https://storage.googleapis.com/tfjs-examples/webcam-transfer-learning/dist/index.html" data-background-interactive>
+
+				</section>
+
+			<!---------------------------------->
+				<section data-markdown>
+					<textarea data-template>
+							<h2> Git learning! </h2>
+							- [Google ML crash course (TensorFlow)](https://developers.google.com/machine-learning/crash-course/)
+							- [Microsoft Azure Machine Learning Studio](https://azure.microsoft.com/en-us/services/machine-learning-studio/)
+							- [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
+							- [Keras + Deep Learning](https://github.com/dynamicwebpaige/keras-tutorial)
+							- [SciKit-Learn](https://github.com/amueller/scipy-2017-sklearn)
+					</textarea>
+				</section>
+		
 			</div>
 		</div>
 
